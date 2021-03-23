@@ -5,7 +5,7 @@ Ext.define('Library.store.BookStore', {
 		var me = this;
 		cfg = cfg || {};
 		me.callParent([Ext.apply({
-			fields: ['Book_ID', 'Author', 'Title', 'Manufacturer', 'ProductGroup', 'Pages'],
+			fields: ['Book_ID', 'Author', 'Title', 'Year', 'Pages'],
 			storeId: 'BookStore',
 			data: [{
                 'Book_ID': 1,
